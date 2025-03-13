@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import "tailwindcss";
+
+
+@theme {
+    --color-primary: #FF6A1A;
+    --color-secondary: #176D38;
+    
+    --font-poppins: "Poppins", sans-serif;
+    --font-rubik: "Rubik", sans-serif;
+
+    --container-padding-default: 1rem;
+    --container-padding-sm: 2rem;
+    --container-padding-lg: 4rem;
+    --container-padding-xl: 5rem;
+    --container-padding-2xl: 6rem;
+  
+    --container-center: true;
+  }
+
+@layer components{
+  .primary-btn {
+    @apply bg-primary text-white font-semibold py-3 px-6 rounded-xl shadow-[0px_10px_14px_-7px_#de0029]
+    hover:!scale-110 duration-300;
+  }
+}
+
+@layer utilities{
+  .drop-shadow {
+    filter: drop-shadow(-6px 8px 15px rgba(0, 0, 0, 0.2));
+  }
+}
