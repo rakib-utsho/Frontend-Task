@@ -47,7 +47,7 @@ const Banner2 = () => {
         {/* img */}
         <div className="flex justify-center items-center">
             <img
-              src={Banner2Png}
+              src= {Banner2Png}
               alt="offer"
               className="w-full h-full object-cover"
             />
