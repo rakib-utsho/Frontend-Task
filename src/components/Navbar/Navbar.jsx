@@ -47,7 +47,7 @@ const Navbar = () => {
           </div>
           {/* menu section */}
           <div className="hidden md:block ">
-            <div className="flex gap-8">
+            <div className="flex gap-8 justify-between">
               <ul className="flex items-center gap-6 text-black">
                 {NavbarMenu.map((menu) => (
                   <li key={menu.id}>
@@ -60,16 +60,18 @@ const Navbar = () => {
                   </li>
                 ))}
               </ul>
-              <div className="flex items-center gap-0.5">
+              <div>
+              <div className="flex items-center gap-0.5 cursor-pointer">
                 <CiHeart />
                 <p>Favorites</p>
               </div>
-              <button className="flex items-center gap-0.5 hover:bg-primary hover:text-white rounded-2xl font-semibold">
+              <button className="flex items-center gap-0.5 hover:bg-primary hover:text-white rounded-2xl font-semibold cursor-pointer p-2">
                 <CiShoppingCart /> Cart
               </button>
               <button class="px-4 py-2 border border-[--color-primary] text-[--color-primary] rounded-lg hover:bg-[--color-primary]">
                 Sign in
               </button>
+              </div>
             </div>
           </div>
           {/* Mobile Hamburger Menu Section */}
