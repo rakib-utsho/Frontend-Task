@@ -60,17 +60,17 @@ const Navbar = () => {
                   </li>
                 ))}
               </ul>
-              <div className="flex items-center">
-              <div className="flex items-center gap-0.5 cursor-pointer">
+              <div className="flex items-center justify-center">
+                <div className="flex items-center gap-0.5 cursor-pointer">
                 <CiHeart />
                 <p>Favorites</p>
-              </div>
-              <button className="flex items-center gap-0.5 hover:bg-primary hover:text-white rounded-2xl font-semibold cursor-pointer p-2">
+                </div>
+                <button className="flex items-center gap-0.5 hover:bg-primary hover:text-white rounded-2xl font-semibold cursor-pointer p-2">
                 <CiShoppingCart /> Cart
-              </button>
-              <button class="px-4 py-2 border border-[--color-primary] text-[--color-primary] rounded-lg hover:bg-[--color-primary]">
+                </button>
+                <button class="px-4 py-2 border border-[--color-primary] text-[--color-primary] rounded-lg hover:bg-[--color-primary]">
                 Sign in
-              </button>
+                </button>
               </div>
             </div>
           </div>
