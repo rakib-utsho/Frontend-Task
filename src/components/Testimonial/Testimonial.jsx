@@ -3,7 +3,7 @@ import CustomerPng from "../../assets/Rectangle 3.png";
 
 const CustomerTestimonial = () => {
   return (
-    <div className="bg-white rounded-lg shadow-md container mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 py-12 px-8 md:px-12">
+    <div className="bg-white hover:ease-out rounded-lg shadow-xl container mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 py-12 px-8 md:px-12 my-20">
       {/* Banner IMG */}
       <div className="flex justify-center items-center">
         <img

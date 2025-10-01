@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { img, title } from "framer-motion/client";
 import React from "react";
 import Fruit1 from "../../assets/fruits/apple.png";

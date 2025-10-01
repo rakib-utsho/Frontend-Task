@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import HeroPng from "../../assets/front.png";
 import LeafPng from "../../assets/leaf.png";
@@ -8,7 +9,7 @@ import PlayStore from "../../assets/googleplay.png";
 
 export const Hero = () => {
   return (
-    <section className="flex justify-center items-center px-6 md:px-16">
+    <section className="flex justify-between items-center px-6 md:px-16">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 min-h-[500px] md:min-h-[650px] relative max-w-screen-xl">
         {/* Brand Info  */}
         <div className="flex flex-col justify-center items-center md:items-start text-center md:text-left py-10 md:py-0 relative z-10 pl-10 md:pl-16">
@@ -17,7 +18,7 @@ export const Hero = () => {
               variants={FadeRight(0.6)}
               initial="hidden"
               animate="visible"
-              className="text-4xl md:text-5xl lg:text-6xl text-gray-900 font-bold leading-relaxed xl:leading-loose font-rubik"
+              className="text-3xl md:text-4xl lg:text-6xl text-gray-900 font-bold leading-relaxed  font-rubik"
             >
               Fresh Fruits and Vegetables
             </motion.h1>

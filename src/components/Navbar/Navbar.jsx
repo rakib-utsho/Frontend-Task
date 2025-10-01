@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { FaLeaf } from "react-icons/fa";
 import { CiHeart, CiShoppingCart } from "react-icons/ci";
@@ -60,7 +61,7 @@ const Navbar = () => {
                   </li>
                 ))}
               </ul>
-              <div className="flex items-center justify-center">
+              <div className="flex items-center justify-center gap-3">
                 <div className="flex items-center gap-0.5 cursor-pointer">
                 <CiHeart />
                 <p>Favorites</p>
@@ -68,7 +69,7 @@ const Navbar = () => {
                 <button className="flex items-center gap-0.5 hover:bg-primary hover:text-white rounded-2xl font-semibold cursor-pointer p-2">
                 <CiShoppingCart /> Cart
                 </button>
-                <button class="px-4 py-2 border border-[--color-primary] text-[--color-primary] rounded-lg hover:bg-[--color-primary]">
+                <button class="px-4 cursor-pointer py-2 border border-[--color-primary] text-[--color-primary] rounded-lg hover:bg-[--color-primary]">
                 Sign in
                 </button>
               </div>
@@ -81,7 +82,7 @@ const Navbar = () => {
               setOpen(!open);
             }}
           >
-            <button className="flex items-center gap-0.5 hover:bg-primary hover:text-white rounded-2xl p-px font-semibold">
+            <button className="cursor-pointer flex items-center gap-0.5 hover:bg-primary hover:text-white rounded-2xl p-px font-semibold">
               <CiShoppingCart /> Cart
             </button>
             <MdMenu className="text-4xl" />
