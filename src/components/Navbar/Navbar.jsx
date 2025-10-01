@@ -60,7 +60,7 @@ const Navbar = () => {
                   </li>
                 ))}
               </ul>
-              <div>
+              <div className="flex items-center">
               <div className="flex items-center gap-0.5 cursor-pointer">
                 <CiHeart />
                 <p>Favorites</p>
